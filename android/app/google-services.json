@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "139948724082",
+    "project_id": "developer-os",
+    "storage_bucket": "developer-os.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139948724082:android:22857ef64060149d3857eb",
+        "android_client_info": {
+          "package_name": "com.kerolosadel.developer_os"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139948724082-cb7p07aku8lmsta1glv2l9e8oq7b5koj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kerolosadel.developer_os",
+            "certificate_hash": "3deb9f7b8d7a42862ac905e1963569eec770db71"
+          }
+        },
+        {
+          "client_id": "139948724082-p4bdca7e6ggmvs7v0ed0mig6fkhruaeu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kerolosadel.developer_os",
+            "certificate_hash": "4493d0b12d27ba81b46e03d7f62f3842ecc10c9d"
+          }
+        },
+        {
+          "client_id": "139948724082-83jc3i7ku0nct091mm30hedljnrubi9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZb-4Zeq0zl2T6AE45XxTVQumNh6MG7cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139948724082-83jc3i7ku0nct091mm30hedljnrubi9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "139948724082-5uf4mav816u15hqvd7o6ml8m2urnl8os.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.developerOs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

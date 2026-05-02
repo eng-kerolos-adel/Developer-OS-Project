@@ -1,0 +1,805 @@
+lib/features/projects/presentation/screens/projects_screen.dart:224:8: Error: Expected a class member, but got ','.
+      },
+       ^
+lib/features/projects/presentation/screens/projects_screen.dart:225:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
+Try adding the name of the type of the variable or the keyword 'var'.
+      onDismissed: (_) =>
+      ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:225:7: Error: Expected ';' after this.
+      onDismissed: (_) =>
+      ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:225:18: Error: Expected a class member, but got ':'.
+      onDismissed: (_) =>
+                 ^
+lib/features/projects/presentation/screens/projects_screen.dart:225:20: Error: Expected an identifier, but got '('.
+Try inserting an identifier before '('.
+      onDismissed: (_) =>
+                   ^
+lib/features/projects/presentation/screens/projects_screen.dart:226:81: Error: Expected a class member, but got ','.
+          ref.read(projectControllerProvider.notifier).deleteProject(project.id),
+                                                                                ^
+lib/features/projects/presentation/screens/projects_screen.dart:227:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
+Try adding the name of the type of the variable or the keyword 'var'.
+      background: Container(
+      ^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:227:7: Error: Expected ';' after this.
+      background: Container(
+      ^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:227:17: Error: Expected a class member, but got ':'.
+      background: Container(
+                ^
+lib/features/projects/presentation/screens/projects_screen.dart:228:18: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+        alignment: Alignment.centerRight,
+                 ^
+lib/features/projects/presentation/screens/projects_screen.dart:229:16: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+        padding: const EdgeInsets.only(right: 16),
+               ^
+lib/features/projects/presentation/screens/projects_screen.dart:230:14: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+        child: const Icon(Icons.delete_outline, color: Colors.red),
+             ^
+lib/features/projects/presentation/screens/projects_screen.dart:231:8: Error: Expected '{' before this.
+      ),
+       ^
+lib/features/projects/presentation/screens/projects_screen.dart:231:8: Error: Expected a class member, but got ','.
+      ),
+       ^
+lib/features/projects/presentation/screens/projects_screen.dart:232:7: Error: Variables must be declared using the keywords 'const', 'final', 'var' or a type name.
+Try adding the name of the type of the variable or the keyword 'var'.
+      child: GlassCard(
+      ^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:232:7: Error: Expected ';' after this.
+      child: GlassCard(
+      ^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:232:12: Error: Expected a class member, but got ':'.
+      child: GlassCard(
+           ^
+lib/features/projects/presentation/screens/projects_screen.dart:233:14: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+             ^
+lib/features/projects/presentation/screens/projects_screen.dart:234:14: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+        child: Column(
+             ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:8: Error: Expected '{' before this.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+       ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:8: Error: Expected a class member, but got '.'.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+       ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:18: Error: Expected '{' before this.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                 ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:18: Error: Expected a class member, but got '.'.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                 ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:31: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                              ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:49: Error: Expected '{' before this.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:49: Error: Expected a class member, but got '.'.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:62: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                             ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:72: Error: Non-optional parameters can't have a default value.
+Try removing the default value or making the parameter optional.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                                       ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:76: Error: Expected '{' before this.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                                           ^
+lib/features/projects/presentation/screens/projects_screen.dart:364:76: Error: Expected a class member, but got ','.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                                                           ^
+lib/features/projects/presentation/screens/projects_screen.dart:233:62: Error: Not a constant expression.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+                                                             ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:233:48: Error: Method invocation is not a constant expression.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+                                               ^^^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:233:22: Error: Undefined name 'context'.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+                     ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:233:30: Error: Method invocation is not a constant expression.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+                             ^^
+lib/features/projects/presentation/screens/projects_screen.dart:233:16: Error: Not a constant expression.
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+               ^^
+lib/features/projects/presentation/screens/projects_screen.dart:243:21: Error: Not a constant expression.
+                    project.name,
+                    ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:248:30: Error: Not a constant expression.
+                      color: isDark ? AppTheme.white : AppTheme.black,
+                             ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:244:28: Error: Constant expression expected.
+Try inserting 'const'.
+                    style: TextStyle(
+                           ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:242:26: Error: Constant expression expected.
+Try inserting 'const'.
+                  child: Text(
+                         ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:241:17: Error: Constant expression expected.
+Try inserting 'const'.
+                Expanded(
+                ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:253:37: Error: Not a constant expression.
+                _StatusPill(status: project.status, isDark: isDark),
+                                    ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:253:61: Error: Not a constant expression.
+                _StatusPill(status: project.status, isDark: isDark),
+                                                            ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:253:17: Error: Constant expression expected.
+Try inserting 'const'.
+                _StatusPill(status: project.status, isDark: isDark),
+                ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:240:25: Error: Constant expression expected.
+Try inserting 'const'.
+              children: [
+                        ^
+lib/features/projects/presentation/screens/projects_screen.dart:238:13: Error: Constant expression expected.
+Try inserting 'const'.
+            Row(
+            ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:258:15: Error: Not a constant expression.
+              project.projectType,
+              ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:262:24: Error: Not a constant expression.
+                color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                       ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:259:22: Error: Constant expression expected.
+Try inserting 'const'.
+              style: TextStyle(
+                     ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:257:13: Error: Constant expression expected.
+Try inserting 'const'.
+            Text(
+            ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:270:15: Error: Not a constant expression.
+              project.description,
+              ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:277:24: Error: Not a constant expression.
+                color: isDark ? AppTheme.lightGray : AppTheme.gray,
+                       ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:273:22: Error: Constant expression expected.
+Try inserting 'const'.
+              style: TextStyle(
+                     ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:269:13: Error: Constant expression expected.
+Try inserting 'const'.
+            Text(
+            ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:287:25: Error: Not a constant expression.
+              children: project.techStack
+                        ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:288:20: Error: Method invocation is not a constant expression.
+                  .take(5)
+                   ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:292:54: Error: Constant expression expected.
+Try inserting 'const'.
+                          borderRadius: BorderRadius.circular(6),
+                                                     ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:292:54: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+                          borderRadius: BorderRadius.circular(6),
+                                                     ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:293:35: Error: Not a constant expression.
+                          color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.06),
+                                  ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:293:77: Error: Method invocation is not a constant expression.
+                          color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.06),
+                                                                            ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:295:37: Error: Not a constant expression.
+                            color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                                    ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:295:79: Error: Method invocation is not a constant expression.
+                            color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                                                                              ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:294:42: Error: Constant expression expected.
+Try inserting 'const'.
+                          border: Border.all(
+                                         ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:294:42: Error: Cannot invoke a non-'const' factory where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+                          border: Border.all(
+                                         ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:291:37: Error: Constant expression expected.
+Try inserting 'const'.
+                        decoration: BoxDecoration(
+                                    ^^^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:299:27: Error: Not a constant expression.
+                          t,
+                          ^
+lib/features/projects/presentation/screens/projects_screen.dart:303:36: Error: Not a constant expression.
+                            color: isDark ? AppTheme.silver : AppTheme.gray,
+                                   ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:300:34: Error: Constant expression expected.
+Try inserting 'const'.
+                          style: TextStyle(
+                                 ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:298:32: Error: Constant expression expected.
+Try inserting 'const'.
+                        child: Text(
+                               ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:289:31: Error: Not a constant expression.
+                  .map((t) => Container(
+                              ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:289:24: Error: Not a constant expression.
+                  .map((t) => Container(
+                       ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:289:20: Error: Method invocation is not a constant expression.
+                  .map((t) => Container(
+                   ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:307:20: Error: Method invocation is not a constant expression.
+                  .toList(),
+                   ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:284:13: Error: Constant expression expected.
+Try inserting 'const'.
+            Wrap(
+            ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:316:21: Error: Not a constant expression.
+                if (project.startDate != null)
+                    ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:318:21: Error: Constant expression expected.
+Try inserting 'const'.
+                    DateFormat('MMM yyyy').format(project.startDate!),
+                    ^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:318:21: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+                    DateFormat('MMM yyyy').format(project.startDate!),
+                    ^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:318:51: Error: Not a constant expression.
+                    DateFormat('MMM yyyy').format(project.startDate!),
+                                                  ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:318:44: Error: Method invocation is not a constant expression.
+                    DateFormat('MMM yyyy').format(project.startDate!),
+                                           ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:322:30: Error: Not a constant expression.
+                      color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                             ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:319:28: Error: Constant expression expected.
+Try inserting 'const'.
+                    style: TextStyle(
+                           ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:317:19: Error: Constant expression expected.
+Try inserting 'const'.
+                  Text(
+                  ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:327:21: Error: Not a constant expression.
+                if (project.roadmap.isNotEmpty) ...[
+                    ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:327:29: Error: Not a constant expression.
+                if (project.roadmap.isNotEmpty) ...[
+                            ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:331:50: Error: Constant expression expected.
+Try inserting 'const'.
+                      borderRadius: BorderRadius.circular(2),
+                                                 ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:331:50: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+                      borderRadius: BorderRadius.circular(2),
+                                                 ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:333:32: Error: Not a constant expression.
+                        value: project.completionPercentage / 100,
+                               ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:335:30: Error: Not a constant expression.
+                            (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                             ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:335:72: Error: Method invocation is not a constant expression.
+                            (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                                                                       ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:337:27: Error: Not a constant expression.
+                          isDark ? AppTheme.white : AppTheme.black,
+                          ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:336:37: Error: Constant expression expected.
+Try inserting 'const'.
+                        valueColor: AlwaysStoppedAnimation<Color>(
+                                    ^^^^^^^^^^^^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:332:30: Error: Constant expression expected.
+Try inserting 'const'.
+                      child: LinearProgressIndicator(
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:330:28: Error: Constant expression expected.
+Try inserting 'const'.
+                    child: ClipRRect(
+                           ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:328:19: Error: Constant expression expected.
+Try inserting 'const'.
+                  SizedBox(
+                  ^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:345:24: Error: Not a constant expression.
+                    '${project.completionPercentage}%',
+                       ^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:350:30: Error: Not a constant expression.
+                      color: isDark ? AppTheme.silver : AppTheme.gray,
+                             ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:346:28: Error: Constant expression expected.
+Try inserting 'const'.
+                    style: TextStyle(
+                           ^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:344:19: Error: Constant expression expected.
+Try inserting 'const'.
+                  Text(
+                  ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:327:52: Error: Constant expression expected.
+Try inserting 'const'.
+                if (project.roadmap.isNotEmpty) ...[
+                                                   ^
+lib/features/projects/presentation/screens/projects_screen.dart:358:26: Error: Not a constant expression.
+                  color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                         ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:355:17: Error: Constant expression expected.
+Try inserting 'const'.
+                Icon(
+                ^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:315:25: Error: Constant expression expected.
+Try inserting 'const'.
+              children: [
+                        ^
+lib/features/projects/presentation/screens/projects_screen.dart:313:13: Error: Constant expression expected.
+Try inserting 'const'.
+            Row(
+            ^^^
+lib/features/projects/presentation/screens/projects_screen.dart:236:21: Error: Constant expression expected.
+Try inserting 'const'.
+          children: [
+                    ^
+lib/features/projects/presentation/screens/projects_screen.dart:234:16: Error: Constant expression expected.
+Try inserting 'const'.
+        child: Column(
+               ^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:364:34: Error: Not a constant expression.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                 ^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:364:44: Error: Not a constant expression.
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+                                           ^
+lib/features/projects/presentation/screens/projects_screen.dart:158:25: Error: Required named parameter 'child' must be provided.
+      return Dismissible(
+                        ^
+/C:/flutter/packages/flutter/lib/src/widgets/dismissible.dart:102:9: Context: Found this candidate, but the arguments don't match.
+  const Dismissible({
+        ^^^^^^^^^^^
+lib/features/projects/presentation/screens/projects_screen.dart:149:9: Error: Constructor is marked 'const' so all fields must be final.
+  const _ProjectCard({
+        ^
+lib/features/projects/presentation/screens/projects_screen.dart:225:7: Context: Field isn't final, but constructor is 'const'.
+      onDismissed: (_) =>
+      ^
+lib/features/projects/presentation/screens/projects_screen.dart:227:7: Context: Field isn't final, but constructor is 'const'.
+      background: Container(
+      ^
+lib/features/projects/presentation/screens/projects_screen.dart:232:7: Context: Field isn't final, but constructor is 'const'.
+      child: GlassCard(
+      ^
+lib/features/projects/presentation/screens/projects_screen.dart:236:21: Error: Non-constant list literal is not a constant expression.
+          children: [
+                    ^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4m 25s
+Running Gradle task 'assembleDebug'...                            276.6s
+Error: Gradle task assembleDebug failed with exit code 1
+
+C:\Users\start\StudioProjects\developer_os>
+
+
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:go_router/go_router.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:intl/intl.dart';
+
+import 'package:developer_os/core/constants/route_constants.dart';
+import 'package:developer_os/core/theme/app_theme.dart';
+import 'package:developer_os/shared/widgets/glass_widgets.dart';
+import 'package:developer_os/features/projects/domain/models/project.dart';
+import 'package:developer_os/features/projects/providers/project_provider.dart';
+import 'package:developer_os/features/github/providers/github_provider.dart';
+
+class ProjectsScreen extends ConsumerWidget {
+  const ProjectsScreen({super.key});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final projectsAsync = ref.watch(projectsProvider);
+
+    return SafeArea(
+      child: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.fromLTRB(20, 16, 20, 0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '// project archive',
+                      style: TextStyle(
+                        fontFamily: 'JetBrainsMono',
+                        fontSize: 11,
+                        color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                      ),
+                    ),
+                    Text(
+                      'Projects',
+                      style: TextStyle(
+                        fontFamily: 'Syne',
+                        fontSize: 24,
+                        fontWeight: FontWeight.w800,
+                        color: isDark ? AppTheme.white : AppTheme.black,
+                      ),
+                    ),
+                  ],
+                ),
+                GestureDetector(
+                  onTap: () => context.go(RouteConstants.createProject),
+                  child: Container(
+                    width: 40,
+                    height: 40,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.07),
+                      border: Border.all(
+                        color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                      ),
+                    ),
+                    child: Icon(Icons.add, size: 20,
+                        color: isDark ? AppTheme.white : AppTheme.black),
+                  ),
+                ),
+              ],
+            ).animate().fadeIn(),
+          ),
+
+          const SizedBox(height: 16),
+
+          Expanded(
+            child: projectsAsync.when(
+              loading: () => Center(
+                child: CircularProgressIndicator(
+                  color: isDark ? AppTheme.white : AppTheme.black,
+                  strokeWidth: 2,
+                ),
+              ),
+              error: (e, _) => Center(child: Text('Error: $e')),
+              data: (projects) {
+                if (projects.isEmpty) {
+                  return Center(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.folder_open_outlined, size: 56,
+                            color: isDark ? AppTheme.gray : AppTheme.lightGray),
+                        const SizedBox(height: 16),
+                        Text(
+                          'No projects yet',
+                          style: TextStyle(
+                            fontFamily: 'Syne',
+                            fontSize: 20,
+                            fontWeight: FontWeight.w700,
+                            color: isDark ? AppTheme.white : AppTheme.black,
+                          ),
+                        ),
+                        const SizedBox(height: 6),
+                        Text(
+                          '// init your first project',
+                          style: TextStyle(
+                            fontFamily: 'JetBrainsMono',
+                            fontSize: 12,
+                            color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                          ),
+                        ),
+                        const SizedBox(height: 24),
+                        GlassButton(
+                          label: 'Create Project',
+                          width: 200,
+                          onPressed: () => context.go(RouteConstants.createProject),
+                        ),
+                      ],
+                    ).animate().fadeIn(),
+                  );
+                }
+
+                return ListView.separated(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  physics: const BouncingScrollPhysics(),
+                  itemCount: projects.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 12),
+                  itemBuilder: (context, i) {
+                    final project = projects[i];
+                    return _ProjectCard(
+                      project: project,
+                      isDark: isDark,
+                      index: i,
+                    );
+                  },
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ProjectCard extends ConsumerWidget {
+  final Project project;
+  final bool isDark;
+  final int index;
+
+  const _ProjectCard({
+    required this.project,
+    required this.isDark,
+    required this.index,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final githubToken = ref.watch(githubTokenProvider);
+      return Dismissible(
+        key: Key(project.id),
+        direction: DismissDirection.endToStart,
+        confirmDismiss: (dir) async {
+          bool deleteFromGitHub = false;
+          return await showDialog<bool>(
+            context: context,
+            builder: (_) => StatefulBuilder(builder: (ctx, setS) {
+              return AlertDialog(
+                backgroundColor: isDark ? AppTheme.darkMid : AppTheme.white,
+                title: Text('Delete Project',
+                    style: TextStyle(fontFamily: 'Syne',
+                        color: isDark ? AppTheme.white : AppTheme.black)),
+                content: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Delete "${project.name}"?',
+                        style: TextStyle(fontFamily: 'JetBrainsMono',
+                            color: isDark ? AppTheme.silver : AppTheme.gray)),
+                    if (project.githubUrl != null && githubToken != null) ...[
+                      const SizedBox(height: 16),
+                      Row(children: [
+                        Checkbox(
+                          value: deleteFromGitHub,
+                          activeColor: Colors.red,
+                          onChanged: (v) => setS(() => deleteFromGitHub = v ?? false),
+                        ),
+                        Expanded(
+                          child: Text('Also delete GitHub repo',
+                              style: TextStyle(fontFamily: 'JetBrainsMono',
+                                  fontSize: 12, color: Colors.red)),
+                        ),
+                      ]),
+                      if (deleteFromGitHub)
+                        Padding(
+                          padding: const EdgeInsets.only(left: 8, top: 4),
+                          child: Text('⚠️ This cannot be undone!',
+                              style: TextStyle(fontFamily: 'JetBrainsMono',
+                                  fontSize: 10, color: Colors.orange)),
+                        ),
+                    ],
+                  ],
+                ),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(ctx, false),
+                    child: const Text('Cancel'),
+                  ),
+                  TextButton(
+                    onPressed: () async {
+                      if (deleteFromGitHub && project.githubUrl != null) {
+                        await ref
+                            .read(deleteGitHubRepoProvider.notifier)
+                            .deleteRepo(project.githubUrl!);
+                      }
+                      if (ctx.mounted) Navigator.pop(ctx, true);
+                    },
+                    child: const Text('Delete', style: TextStyle(color: Colors.red)),
+                  ),
+                ],
+              );
+            }),
+          );
+        }
+      );
+      },
+      onDismissed: (_) =>
+          ref.read(projectControllerProvider.notifier).deleteProject(project.id),
+      background: Container(
+        alignment: Alignment.centerRight,
+        padding: const EdgeInsets.only(right: 16),
+        child: const Icon(Icons.delete_outline, color: Colors.red),
+      ),
+      child: GlassCard(
+        onTap: () => context.go(RouteConstants.projectDetail(project.id)),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            // Header row
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(
+                  child: Text(
+                    project.name,
+                    style: TextStyle(
+                      fontFamily: 'Syne',
+                      fontSize: 17,
+                      fontWeight: FontWeight.w700,
+                      color: isDark ? AppTheme.white : AppTheme.black,
+                    ),
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                _StatusPill(status: project.status, isDark: isDark),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Text(
+              project.projectType,
+              style: TextStyle(
+                fontFamily: 'JetBrainsMono',
+                fontSize: 11,
+                color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                letterSpacing: 0.5,
+              ),
+            ),
+
+            const SizedBox(height: 10),
+
+            Text(
+              project.description,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontFamily: 'JetBrainsMono',
+                fontSize: 12,
+                height: 1.5,
+                color: isDark ? AppTheme.lightGray : AppTheme.gray,
+              ),
+            ),
+
+            const SizedBox(height: 12),
+
+            // Tech stack
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: project.techStack
+                  .take(5)
+                  .map((t) => Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(6),
+                          color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.06),
+                          border: Border.all(
+                            color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                          ),
+                        ),
+                        child: Text(
+                          t,
+                          style: TextStyle(
+                            fontFamily: 'JetBrainsMono',
+                            fontSize: 10,
+                            color: isDark ? AppTheme.silver : AppTheme.gray,
+                          ),
+                        ),
+                      ))
+                  .toList(),
+            ),
+
+            const SizedBox(height: 12),
+
+            // Bottom row
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                if (project.startDate != null)
+                  Text(
+                    DateFormat('MMM yyyy').format(project.startDate!),
+                    style: TextStyle(
+                      fontFamily: 'JetBrainsMono',
+                      fontSize: 10,
+                      color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                    ),
+                  ),
+                const Spacer(),
+                // Progress
+                if (project.roadmap.isNotEmpty) ...[
+                  SizedBox(
+                    width: 100,
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(2),
+                      child: LinearProgressIndicator(
+                        value: project.completionPercentage / 100,
+                        backgroundColor:
+                            (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+                        valueColor: AlwaysStoppedAnimation<Color>(
+                          isDark ? AppTheme.white : AppTheme.black,
+                        ),
+                        minHeight: 3,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    '${project.completionPercentage}%',
+                    style: TextStyle(
+                      fontFamily: 'JetBrainsMono',
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                      color: isDark ? AppTheme.silver : AppTheme.gray,
+                    ),
+                  ),
+                ],
+                const SizedBox(width: 8),
+                Icon(
+                  Icons.arrow_forward_ios,
+                  size: 12,
+                  color: isDark ? AppTheme.gray : AppTheme.lightGray,
+                ),
+              ],
+            ),
+          ],
+        ),
+      ).animate().fadeIn(delay: (index * 80).ms).slideY(begin: 0.1, end: 0),
+  }
+
+class _StatusPill extends StatelessWidget {
+  final String status;
+  final bool isDark;
+
+  const _StatusPill({required this.status, required this.isDark});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(6),
+        color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.07),
+        border: Border.all(
+          color: (isDark ? AppTheme.white : AppTheme.black).withOpacity(0.1),
+        ),
+      ),
+      child: Text(
+        status.toUpperCase(),
+        style: TextStyle(
+          fontFamily: 'JetBrainsMono',
+          fontSize: 9,
+          fontWeight: FontWeight.w700,
+          color: isDark ? AppTheme.silver : AppTheme.gray,
+          letterSpacing: 1,
+        ),
+      ),
+    );
+  }
+}

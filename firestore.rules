@@ -1,0 +1,75 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Users collection
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /skills/{skillId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /certificates/{certId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /links/{linkId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /journal/{entryId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /snippets/{snippetId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /interviews/{appId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /dsa_problems/{problemId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /daily_stats/{statsId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /time_entries/{entryId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /flashcards/{flashcardId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /learning/{learnId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /fl_clients/{clientId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /fl_invoices/{invoiceId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /achievements/{achievementId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /color_palettes/{palettesId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /markdown_docs/{docId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Projects
+    match /projects/{projectId} {
+      // السماح بالقراءة والكتابة لو اليوزر هو صاحب المشروع
+      allow read, update, delete: if request.auth != null && request.auth.uid == resource.data.uid;
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.uid;
+
+      // Tasks subcollection
+      match /tasks/{taskId} {
+        // الحل الأضمن: السماح بالوصول للـ task لو اليوزر هو صاحب الـ Project الأب
+        allow read, write: if request.auth != null && 
+          get(/databases/$(database)/documents/projects/$(projectId)).data.uid == request.auth.uid;
+          
+        allow create: if request.auth != null; 
+      }
+    }
+  }
+}

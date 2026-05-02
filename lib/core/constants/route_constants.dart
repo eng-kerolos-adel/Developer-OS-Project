@@ -1,0 +1,31 @@
+class RouteConstants {
+  static const String splash = '/';
+  static const String onboarding = '/onboarding';
+  static const String login = '/login';
+  static const String register = '/register';
+  static const String home = '/home';
+  static const String profile = '/home/profile';
+  static const String editProfile = '/home/profile/edit';
+  static const String skills = '/home/skills';
+  static const String links = '/home/links';
+  static const String projects = '/home/projects';
+  static const String journal = '/home/journal';
+  static const String snippets = '/home/snippets';
+  static const String interview = '/home/interview';
+  static const String settings = '/home/settings';
+  static const String analytics = '/home/analytics';
+  static const String pomodoro = '/home/pomodoro';
+  static const String cards = '/home/cards';
+  static const String learning = '/home/learning';
+  static const String freelance = '/home/freelance';
+  static const String tools = '/home/tools';
+  static const String awards = '/home/awards';
+  static const String notifs = '/home/notifs';
+  static const String readmeGenerator = '/readme-generator';
+  // static const String portfolio = '/portfolio';
+  // static const String info = '/home/info';
+  static const String createProject = '/home/projects/create';
+  static String projectDetail(String id) => '/home/projects/$id';
+  static String projectTimeline(String id) => '/home/projects/$id/timeline';
+  static String projectTasks(String id) => '/home/projects/$id/tasks';
+}
